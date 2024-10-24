@@ -1,0 +1,239 @@
+.contain {
+  width: 1440px;
+  position: relative;
+  margin: auto;
+}
+.block1 {
+  width: 1440px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.cacnut {
+  width: 300px;
+  height: 60px;
+
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.button {
+  margin-top: 8px;
+  width: 50px;
+  height: 50px;
+  background-image: url("Button.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.cacnut button {
+  border: none;
+  color: rgba(111, 111, 255, 1);
+  background-color: rgb(210, 210, 240);
+  border-radius: 5px;
+}
+.form {
+  position: absolute;
+  top: 100px;
+  left: 419px;
+  margin: auto;
+  margin-top: 70px;
+  height: 600px;
+  width: 600px;
+  border: 1px solid rgb(247, 243, 243);
+  box-shadow: 1px 1px 1px 1px rgb(153, 152, 152);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.step {
+  width: 500px;
+  height: 50px;
+  margin: auto;
+
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stepnumber img {
+  width: 40px;
+  height: 40px;
+}
+.stepnumber1 {
+  width: 100px;
+  height: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+#buoc {
+  background: linear-gradient(to right, blue 50%, aliceblue 50%);
+}
+.line {
+  margin: auto;
+  margin-top: 20px;
+  width: 550px;
+  height: 2px;
+  background-color: rgb(180, 178, 178);
+}
+.form h1 {
+  margin-left: 20px;
+  opacity: 80%;
+}
+.form p {
+  margin: 0;
+  margin-left: 20px;
+
+  width: 350px;
+  opacity: 70%;
+}
+.textbox {
+  width: 550px;
+  height: 260px;
+  margin: auto;
+  margin-top: 20px;
+
+  position: relative;
+}
+.textbox h3 {
+  margin-top: 0px;
+}
+.buttonn input {
+  width: 190px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid rgb(172, 170, 170);
+}
+.emailText {
+  position: absolute;
+}
+.emailText input {
+  width: 290px;
+}
+.phonelText {
+  position: absolute;
+  right: 15px;
+}
+
+.Address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+}
+
+#Address {
+  width: 530px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+
+  border: 2px solid rgb(172, 170, 170);
+}
+.Address h3 {
+  margin: 0px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+.CityText {
+  position: absolute;
+  top: 190px;
+}
+.CityText input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(172, 170, 170);
+}
+.ZipText {
+  position: absolute;
+  top: 180px;
+  right: 10px;
+}
+.ZipText input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid rgb(172, 170, 170);
+}
+.submit {
+  position: absolute;
+  top: 240px;
+  height: 30px;
+  width: 540px;
+  background-color: rgba(74, 58, 255, 1);
+  border-radius: 10px;
+}
+.submit input {
+  margin: auto;
+  width: 540px;
+}
+.cont {
+  position: absolute;
+  top: 240px;
+  left: 217px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+.cont img {
+  width: 12px;
+  height: 9px;
+  margin-top: 10px;
+}
+.anh1 {
+  position: absolute;
+  top: 450px;
+}
+.anh1 img {
+  width: 420px;
+  height: 150px;
+}
+.anh2 {
+  position: absolute;
+  top: 556px;
+}
+.anh2 img {
+  width: 250px;
+  height: 150px;
+}
+.anh1_ringht {
+  position: absolute;
+
+  top: 230px;
+  right: 0;
+}
+.anh1_ringht img {
+  width: 470px;
+  height: 150px;
+}
+.anh2_ringht {
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+.anh2_ringht img {
+  width: 550px;
+  height: 170px;
+  transform: rotate(1deg);
+}
+.anh3 {
+  position: absolute;
+  top: 341px;
+  right: 0;
+}
+.anh3 img {
+  width: 200px;
+  height: 160px;
+  transform: rotate(-1.3deg);
+}
